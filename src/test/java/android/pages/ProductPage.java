@@ -22,6 +22,9 @@ public class ProductPage {
     @FindBy(xpath = "//android.widget.Button[@text='Learn more']")
     private WebElement clickOnCheckingAccountPage;
 
+    @FindBy(xpath = "//android.widget.TextView[@text='Loans and Lines of Credit']")
+    private WebElement clickLoansAndCredit;
+
     public void clickProductBtn() {
 
         clickOnProduct.click();
@@ -54,5 +57,11 @@ public class ProductPage {
     public void clickOnCheckingAccountPage() {
         Assert.assertTrue(clickOnCheckingAccountPage.isDisplayed());
         ExtentTestManager.log("Checking Page validated");
+    }
+
+    public void checkInfoAboutLoansAndCreditLines(){
+        clickLoansAndCredit.click();
+        ExtentTestManager.log("Clicked on Loans and Lines of Credit");
+
     }
 }
