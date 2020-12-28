@@ -19,6 +19,7 @@ target/
 test-output/
 screenshots
 Extent-Report
+Execution_Report
 Report
 pom.xml.tag
 pom.xml.releaseBackup
