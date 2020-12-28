@@ -59,7 +59,7 @@ public class ProductPage {
         ExtentTestManager.log("Checking Page validated");
     }
 
-    public void checkInfoAboutLoansAndCreditLines(){
+    public void checkInfoAboutLoansAndCreditLines() {
         clickLoansAndCredit.click();
         ExtentTestManager.log("Clicked on Loans and Lines of Credit");
 

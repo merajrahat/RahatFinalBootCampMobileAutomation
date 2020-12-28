@@ -17,7 +17,6 @@ import org.testng.annotations.*;
 import java.lang.reflect.Method;
 import java.net.MalformedURLException;
 import java.net.URL;
-import java.util.Date;
 import java.util.concurrent.TimeUnit;
 
 import static com.peoplentech.finalbootcampmobileautomation.ExtentTestManager.getTime;
@@ -136,9 +135,6 @@ public class TestBase {
             com.peoplentech.finalbootcampmobileautomation.ExtentTestManager.captureScreenshot(driver, result.getName());
         }
     }
-
-
-
 
 
     @AfterSuite

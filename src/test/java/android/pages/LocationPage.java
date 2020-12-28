@@ -16,12 +16,12 @@ public class LocationPage {
     @FindBy(xpath = "//android.widget.EditText[@text='Enter zip or city/state']")
     private WebElement clickZipCodeButton;
 
-    public void userAbleToCheckLocation(){
+    public void userAbleToCheckLocation() {
         clickOnLocation.click();
         ExtentTestManager.log("Clicked on Locations");
         clickAllowApp.click();
         ExtentTestManager.log("Clicked Allow only while using the app");
-        clickZipCodeButton.sendKeys("11694",Keys.RETURN);
+        clickZipCodeButton.sendKeys("11694", Keys.RETURN);
         ExtentTestManager.log("Entered ZipCode");
     }
 }

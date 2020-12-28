@@ -19,7 +19,7 @@ public class ContactPage {
     private WebElement clickCallButton;
 
 
-    public void userAbleToContactTDBank(){
+    public void userAbleToContactTDBank() {
         clickOnContactUs.click();
         ExtentTestManager.log("Clicked on Contact us");
         clickOnTDASAPTM.click();

@@ -43,7 +43,7 @@ public class RegressionTests extends TestBase {
         sleepFor(2);
     }
 
-    @Test (enabled = false)
+    @Test(enabled = false)
     public void validateUserBeingAbleToScrollOnProductPage() {
         HomePage homePage = PageFactory.initElements(getDriver(), HomePage.class);
         ProductPage productPage = PageFactory.initElements(getDriver(), ProductPage.class);
@@ -70,8 +70,8 @@ public class RegressionTests extends TestBase {
 
     }
 
-    @Test (enabled = false)
-    public void validateClickOnTransferButtonWorks(){
+    @Test(enabled = false)
+    public void validateClickOnTransferButtonWorks() {
         HomePage homePage = PageFactory.initElements(getDriver(), HomePage.class);
         LoginPage loginPage = PageFactory.initElements(getDriver(), LoginPage.class);
         homePage.clickOnTransferButton();
@@ -80,8 +80,8 @@ public class RegressionTests extends TestBase {
         sleepFor(2);
     }
 
-    @Test (enabled = false)
-    public void validateClickOnSendMoneyButton(){
+    @Test(enabled = false)
+    public void validateClickOnSendMoneyButton() {
         HomePage homePage = PageFactory.initElements(getDriver(), HomePage.class);
         LoginPage loginPage = PageFactory.initElements(getDriver(), LoginPage.class);
         homePage.clickOnSendMoneyButton();
@@ -90,29 +90,29 @@ public class RegressionTests extends TestBase {
         sleepFor(2);
     }
 
-    @Test (enabled = false)
-    public void validateUserUnableToLogInWithInvalidCredentials(){
+    @Test(enabled = false)
+    public void validateUserUnableToLogInWithInvalidCredentials() {
         LoginPage loginPage = PageFactory.initElements(getDriver(), LoginPage.class);
         loginPage.userUnableToLoginWithInvalidCredentials();
         sleepFor(2);
     }
 
-    @Test (enabled = false)
-    public void validateUserAbleToContactTDBank(){
+    @Test(enabled = false)
+    public void validateUserAbleToContactTDBank() {
         ContactPage contactPage = PageFactory.initElements(getDriver(), ContactPage.class);
         contactPage.userAbleToContactTDBank();
         sleepFor(2);
     }
 
-    @Test (enabled = false)
-    public void validateUserAbleToCheckLocation(){
+    @Test(enabled = false)
+    public void validateUserAbleToCheckLocation() {
         LocationPage locationPage = PageFactory.initElements(getDriver(), LocationPage.class);
         locationPage.userAbleToCheckLocation();
         sleepFor(2);
     }
 
-    @Test (enabled = false)
-    public void validateUserAbleToCheckInfoAboutLoansAndCreditLines(){
+    @Test(enabled = false)
+    public void validateUserAbleToCheckInfoAboutLoansAndCreditLines() {
         ProductPage productPage = PageFactory.initElements(getDriver(), ProductPage.class);
         productPage.clickProductBtn();
 

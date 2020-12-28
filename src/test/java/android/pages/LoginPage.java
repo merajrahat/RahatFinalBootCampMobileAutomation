@@ -1,7 +1,6 @@
 package android.pages;
 
 import com.peoplentech.finalbootcampmobileautomation.ExtentTestManager;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
@@ -29,7 +28,7 @@ public class LoginPage {
 
     }
 
-    public void userUnableToLoginWithInvalidCredentials(){
+    public void userUnableToLoginWithInvalidCredentials() {
         accountBtn.click();
         ExtentTestManager.log("Clicked on Account");
         clickOnUsername.sendKeys("johnparker43");
